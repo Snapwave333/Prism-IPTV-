@@ -1,0 +1,100 @@
+version: '3.8'
+
+services:
+  # Lumen AI Backend (Python + FastAPI)
+  ai-backend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.ai
+    container_name: prism-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - WHISPER_MODEL=small
+      - LLAMA_MODEL=phi3
+      - TTS_MODEL=tts_models/multilingual/multi-dataset/xtts_v2
+      - GPU_ENABLED=true
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ai-models:/app/models
+      - ai-audio:/app/temp_audio
+      - ai-voices:/app/voices
+      - lumen-db:/app/data
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    restart: unless-stopped
+    networks:
+      - prism-network
+
+  # Node.js Backend Server
+  node-server:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.server
+    container_name: prism-server
+    ports:
+      - "3001:3001"
+    environment:
+      - NODE_ENV=production
+      - EPG_CACHE_DURATION=3600000
+    depends_on:
+      - ai-backend
+    restart: unless-stopped
+    networks:
+      - prism-network
+
+  # React Frontend
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.frontend
+    container_name: prism-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - VITE_API_URL=http://localhost:3001
+      - VITE_AI_URL=http://localhost:8000
+    depends_on:
+      - node-server
+      - ai-backend
+    restart: unless-stopped
+    networks:
+      - prism-network
+
+  # MCP Servers (Optional - for development)
+  mcp-servers:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.mcp
+    container_name: prism-mcp
+    environment:
+      - TMDB_API_KEY=${TMDB_API_KEY}
+      - BRAVE_API_KEY=${BRAVE_API_KEY}
+      - PRISM_WEBSOCKET_URL=ws://node-server:3001
+    depends_on:
+      - node-server
+      - ai-backend
+    restart: unless-stopped
+    networks:
+      - prism-network
+    profiles:
+      - dev
+
+volumes:
+  ai-models:
+    driver: local
+  ai-audio:
+    driver: local
+  ai-voices:
+    driver: local
+  lumen-db:
+    driver: local
+
+networks:
+  prism-network:
+    driver: bridge

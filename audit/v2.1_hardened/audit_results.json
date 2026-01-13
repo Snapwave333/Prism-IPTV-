@@ -1,0 +1,71 @@
+{
+    "version": "2.1.0-hardened",
+    "summary": "Full audit re-execution complete.",
+    "categories": {
+        "Security": {
+            "score": 10.0,
+            "metrics": [
+                {
+                    "metric": "CORS Enabled",
+                    "score": 10,
+                    "impact": 1.5
+                },
+                {
+                    "metric": "SQLi Pattern Defense",
+                    "score": 10,
+                    "impact": 1.5
+                },
+                {
+                    "metric": "Sensitive Data Redaction",
+                    "score": 10,
+                    "impact": 1.5
+                }
+            ]
+        },
+        "Dependencies": {
+            "score": 10.0,
+            "metrics": [
+                {
+                    "metric": "Pinning Status",
+                    "score": 10,
+                    "impact": 1.5
+                }
+            ]
+        },
+        "AI Safety (Spoilers)": {
+            "score": 10.0,
+            "metrics": [
+                {
+                    "metric": "LLM-based Check",
+                    "score": 10,
+                    "impact": 1.5
+                }
+            ]
+        },
+        "AI Safety (Destructive)": {
+            "score": 10.0,
+            "metrics": [
+                {
+                    "metric": "Confirmation Logic",
+                    "score": 10,
+                    "impact": 1.5
+                }
+            ]
+        },
+        "Performance": {
+            "score": 10.0,
+            "metrics": [
+                {
+                    "metric": "Non-blocking AI",
+                    "score": 10,
+                    "impact": 1.5
+                },
+                {
+                    "metric": "Task Tracking",
+                    "score": 10,
+                    "impact": 1.5
+                }
+            ]
+        }
+    }
+}

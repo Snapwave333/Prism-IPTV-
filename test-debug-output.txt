@@ -1,0 +1,953 @@
+[2m[WebServer] [22m
+[2m[WebServer] [22m> prism-iptv@0.0.0 dev
+[2m[WebServer] [22m> vite
+[2m[WebServer] [22m
+[2m[WebServer] [22m
+[2m[WebServer] [22m  [32m[1mVITE[22m v7.3.1[39m  [2mready in [0m[1m308[22m[2m[0m ms[22m
+[2m[WebServer] [22m
+[2m[WebServer] [22m  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5173[22m/[39m
+[2m[WebServer] [22m[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+
+Running 1 test using 1 worker
+
+=== Starting debug test ===
+[BROWSER debug] [vite] connecting...
+[BROWSER log] [VrmMascot] Initializing 3D scene...
+[BROWSER log] [VrmMascot] Renderer created, loading VRM model...
+[BROWSER log] [useLumen] Connecting to: ws://localhost:5173/ws/user_123
+[BROWSER log] [VrmMascot] Initializing 3D scene...
+[BROWSER log] [VrmMascot] Renderer created, loading VRM model...
+[BROWSER log] [useLumen] Connecting to: ws://localhost:5173/ws/user_123
+[PAGE ERROR] Cannot use 'in' operator to search for 'requestVideoFrameCallback' in null
+[BROWSER warning] WebSocket connection to 'ws://localhost:5173/ws/user_123' failed: WebSocket is closed before the connection is established.
+[BROWSER log] [VrmMascot] Cleaning up...
+[BROWSER warning] WebSocket connection to 'ws://localhost:5173/ws/user_123' failed: WebSocket is closed before the connection is established.
+[BROWSER log] [VrmMascot] Cleaning up...
+[BROWSER debug] [vite] connected.
+[BROWSER warning] [GroupMarkerNotSet(crbug.com/242999)!:A83019009C190000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[BROWSER warning] [GroupMarkerNotSet(crbug.com/242999)!:A80019009C190000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[BROWSER warning] [GroupMarkerNotSet(crbug.com/242999)!:A86019009C190000]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader (about:flags#enable-unsafe-swiftshader) flag to opt in to lower security guarantees for trusted content.
+[BROWSER log] Disconnected from Lumen
+[BROWSER log] Disconnected from Lumen
+[BROWSER log] Loading VRM: 13.435806230892041 %
+[BROWSER log] Loading VRM: 13.435806230892041 %
+[BROWSER log] Loading VRM: 14.69541306503817 %
+[BROWSER log] Loading VRM: 14.69541306503817 %
+[BROWSER log] Loading VRM: 15.115282009753548 %
+[BROWSER log] Loading VRM: 15.115282009753548 %
+[BROWSER log] Loading VRM: 15.535150954468923 %
+[BROWSER log] Loading VRM: 15.535150954468923 %
+[BROWSER log] Loading VRM: 22.253054069914946 %
+[BROWSER log] Loading VRM: 22.253054069914946 %
+[BROWSER log] Loading VRM: 25.192136682922577 %
+[BROWSER log] Loading VRM: 25.192136682922577 %
+[BROWSER log] Loading VRM: 25.612005627637956 %
+[BROWSER log] Loading VRM: 25.612005627637956 %
+[BROWSER log] Loading VRM: 26.871612461784082 %
+[BROWSER log] Loading VRM: 26.871612461784082 %
+[BROWSER log] Loading VRM: 28.55108824064559 %
+[BROWSER log] Loading VRM: 28.55108824064559 %
+[BROWSER log] Loading VRM: 36.10872924552236 %
+[BROWSER log] Loading VRM: 36.10872924552236 %
+[BROWSER log] Loading VRM: 37.78820502438387 %
+[BROWSER log] Loading VRM: 37.78820502438387 %
+[BROWSER log] Loading VRM: 38.62794291381462 %
+[BROWSER log] Loading VRM: 38.62794291381462 %
+[BROWSER log] Loading VRM: 40.30741869267613 %
+[BROWSER log] Loading VRM: 40.30741869267613 %
+[BROWSER log] Loading VRM: 41.14715658210688 %
+[BROWSER log] Loading VRM: 41.14715658210688 %
+[BROWSER log] Loading VRM: 42.82663236096839 %
+[BROWSER log] Loading VRM: 42.82663236096839 %
+[BROWSER log] Loading VRM: 43.24650130568376 %
+[BROWSER log] Loading VRM: 43.24650130568376 %
+[BROWSER log] Connected to Remote Server
+[BROWSER log] Loading VRM: 44.50610813982989 %
+[BROWSER log] Loading VRM: 44.50610813982989 %
+[BROWSER log] Loading VRM: 45.34584602926064 %
+[BROWSER log] Loading VRM: 45.34584602926064 %
+[BROWSER log] Loading VRM: 46.1855839186914 %
+[BROWSER log] Loading VRM: 46.1855839186914 %
+[BROWSER log] Loading VRM: 46.60545286340677 %
+[BROWSER log] Loading VRM: 46.60545286340677 %
+[BROWSER log] Remote Server: undefined
+[BROWSER log] Loading VRM: 47.02532180812214 %
+[BROWSER log] Loading VRM: 47.02532180812214 %
+[BROWSER log] Loading VRM: 47.445190752837526 %
+[BROWSER log] Loading VRM: 47.445190752837526 %
+[BROWSER log] Loading VRM: 47.865059697552894 %
+[BROWSER log] Loading VRM: 47.865059697552894 %
+[BROWSER log] Loading VRM: 48.28492864226828 %
+[BROWSER log] Loading VRM: 48.28492864226828 %
+[BROWSER log] Loading VRM: 48.70479758698365 %
+[BROWSER log] Loading VRM: 48.70479758698365 %
+[BROWSER log] Loading VRM: 49.5445354764144 %
+[BROWSER log] Loading VRM: 49.5445354764144 %
+[BROWSER log] Loading VRM: 50.384273365845154 %
+[BROWSER log] Loading VRM: 50.384273365845154 %
+[BROWSER log] Loading VRM: 50.80414231056053 %
+[BROWSER log] Loading VRM: 50.80414231056053 %
+[BROWSER log] Loading VRM: 51.22401125527591 %
+[BROWSER log] Loading VRM: 51.22401125527591 %
+[BROWSER log] Loading VRM: 51.64388019999129 %
+[BROWSER log] Loading VRM: 51.64388019999129 %
+[BROWSER log] Loading VRM: 52.06374914470666 %
+[BROWSER log] Loading VRM: 52.06374914470666 %
+[BROWSER log] Loading VRM: 53.743224923568164 %
+[BROWSER log] Loading VRM: 53.743224923568164 %
+[BROWSER log] Loading VRM: 54.58296281299893 %
+[BROWSER log] Loading VRM: 54.58296281299893 %
+[BROWSER log] Loading VRM: 55.0028317577143 %
+[BROWSER log] Loading VRM: 55.0028317577143 %
+[BROWSER log] Loading VRM: 56.682307536575806 %
+[BROWSER log] Loading VRM: 56.682307536575806 %
+[BROWSER log] Loading VRM: 57.10217648129118 %
+[BROWSER log] Loading VRM: 57.10217648129118 %
+[BROWSER log] Loading VRM: 58.36178331543731 %
+[BROWSER log] Loading VRM: 58.36178331543731 %
+[BROWSER log] Loading VRM: 59.20152120486806 %
+[BROWSER log] Loading VRM: 59.20152120486806 %
+[BROWSER log] Loading VRM: 60.041259094298816 %
+[BROWSER log] Loading VRM: 60.041259094298816 %
+[BROWSER log] Loading VRM: 61.30086592844495 %
+[BROWSER log] Loading VRM: 61.30086592844495 %
+[BROWSER log] Loading VRM: 61.720734873160325 %
+[BROWSER log] Loading VRM: 61.720734873160325 %
+[BROWSER log] Loading VRM: 62.980341707306444 %
+[BROWSER log] Loading VRM: 62.980341707306444 %
+[BROWSER log] Loading VRM: 63.400210652021826 %
+[BROWSER log] Loading VRM: 63.400210652021826 %
+[BROWSER log] Loading VRM: 64.65981748616795 %
+[BROWSER log] Loading VRM: 64.65981748616795 %
+[BROWSER log] Loading VRM: 65.07968643088333 %
+[BROWSER log] Loading VRM: 65.07968643088333 %
+[BROWSER log] Loading VRM: 65.4995553755987 %
+[BROWSER log] Loading VRM: 65.4995553755987 %
+[BROWSER log] Loading VRM: 67.1790311544602 %
+[BROWSER log] Loading VRM: 67.1790311544602 %
+[BROWSER log] Loading VRM: 68.43863798860635 %
+[BROWSER log] Loading VRM: 68.43863798860635 %
+[BROWSER log] Loading VRM: 69.69824482275246 %
+[BROWSER log] Loading VRM: 69.69824482275246 %
+[BROWSER log] Loading VRM: 70.53798271218322 %
+[BROWSER log] Loading VRM: 70.53798271218322 %
+[BROWSER log] Loading VRM: 70.9578516568986 %
+[BROWSER log] Loading VRM: 70.9578516568986 %
+[BROWSER log] Loading VRM: 72.21745849104472 %
+[BROWSER log] Loading VRM: 72.21745849104472 %
+[BROWSER log] Loading VRM: 73.05719638047547 %
+[BROWSER log] Loading VRM: 73.05719638047547 %
+[BROWSER log] Loading VRM: 73.47706532519086 %
+[BROWSER log] Loading VRM: 73.47706532519086 %
+[BROWSER log] Loading VRM: 73.89693426990624 %
+[BROWSER log] Loading VRM: 73.89693426990624 %
+[BROWSER log] Loading VRM: 74.73667215933698 %
+[BROWSER log] Loading VRM: 74.73667215933698 %
+[BROWSER log] Loading VRM: 75.57641004876774 %
+[BROWSER log] Loading VRM: 75.57641004876774 %
+[BROWSER log] Loading VRM: 75.99627899348312 %
+[BROWSER log] Loading VRM: 75.99627899348312 %
+[BROWSER log] Loading VRM: 76.41614793819849 %
+[BROWSER log] Loading VRM: 76.41614793819849 %
+[BROWSER log] Loading VRM: 77.25588582762924 %
+[BROWSER log] Loading VRM: 77.25588582762924 %
+[BROWSER log] Loading VRM: 77.67575477234462 %
+[BROWSER log] Loading VRM: 77.67575477234462 %
+[BROWSER log] Loading VRM: 78.51549266177537 %
+[BROWSER log] Loading VRM: 78.51549266177537 %
+[BROWSER log] Loading VRM: 78.93536160649074 %
+[BROWSER log] Loading VRM: 78.93536160649074 %
+[BROWSER log] Loading VRM: 79.7750994959215 %
+[BROWSER log] Loading VRM: 79.7750994959215 %
+[BROWSER log] Loading VRM: 80.19496844063687 %
+[BROWSER log] Loading VRM: 80.19496844063687 %
+[BROWSER log] Loading VRM: 80.61483738535226 %
+[BROWSER log] Loading VRM: 80.61483738535226 %
+[BROWSER log] Loading VRM: 82.29431316421376 %
+[BROWSER log] Loading VRM: 82.29431316421376 %
+[BROWSER log] Loading VRM: 83.13405105364451 %
+[BROWSER log] Loading VRM: 83.13405105364451 %
+[BROWSER log] Loading VRM: 83.55391999835989 %
+[BROWSER log] Loading VRM: 83.55391999835989 %
+[BROWSER log] Loading VRM: 83.97378894307526 %
+[BROWSER log] Loading VRM: 83.97378894307526 %
+[BROWSER log] Loading VRM: 85.65326472193678 %
+[BROWSER log] Loading VRM: 85.65326472193678 %
+[BROWSER log] Loading VRM: 86.49300261136752 %
+[BROWSER log] Loading VRM: 86.49300261136752 %
+[BROWSER log] Loading VRM: 86.91287155608289 %
+[BROWSER log] Loading VRM: 86.91287155608289 %
+[BROWSER log] Loading VRM: 87.75260944551366 %
+[BROWSER log] Loading VRM: 87.75260944551366 %
+[BROWSER log] Loading VRM: 88.59234733494439 %
+[BROWSER log] Loading VRM: 88.59234733494439 %
+[BROWSER log] Loading VRM: 89.01221627965978 %
+[BROWSER log] Loading VRM: 89.01221627965978 %
+[BROWSER log] Loading VRM: 89.43208522437516 %
+[BROWSER log] Loading VRM: 89.43208522437516 %
+[BROWSER log] Loading VRM: 90.27182311380591 %
+[BROWSER log] Loading VRM: 90.27182311380591 %
+[BROWSER log] Loading VRM: 90.69169205852128 %
+[BROWSER log] Loading VRM: 90.69169205852128 %
+[BROWSER log] Loading VRM: 91.11156100323666 %
+[BROWSER log] Loading VRM: 91.11156100323666 %
+[BROWSER log] Loading VRM: 91.95129889266741 %
+[BROWSER log] Loading VRM: 91.95129889266741 %
+[BROWSER log] Loading VRM: 92.79103678209817 %
+[BROWSER log] Loading VRM: 92.79103678209817 %
+[BROWSER log] Loading VRM: 93.21090572681354 %
+[BROWSER log] Loading VRM: 93.21090572681354 %
+[BROWSER log] Loading VRM: 93.63077467152891 %
+[BROWSER log] Loading VRM: 93.63077467152891 %
+[BROWSER log] Loading VRM: 94.05064361624429 %
+[BROWSER log] Loading VRM: 94.05064361624429 %
+[BROWSER log] Loading VRM: 94.47051256095968 %
+[BROWSER log] Loading VRM: 94.47051256095968 %
+[BROWSER log] Loading VRM: 94.89038150567505 %
+[BROWSER log] Loading VRM: 94.89038150567505 %
+[BROWSER log] Loading VRM: 96.14998833982118 %
+[BROWSER log] Loading VRM: 96.14998833982118 %
+[BROWSER log] Loading VRM: 96.98972622925193 %
+[BROWSER log] Loading VRM: 96.98972622925193 %
+[BROWSER log] Loading VRM: 97.82946411868268 %
+[BROWSER log] Loading VRM: 97.82946411868268 %
+[BROWSER log] Loading VRM: 98.66920200811343 %
+[BROWSER log] Loading VRM: 98.66920200811343 %
+[BROWSER log] Loading VRM: 99.92880884225957 %
+[BROWSER log] Loading VRM: 99.92880884225957 %
+[BROWSER log] Loading VRM: 100 %
+[BROWSER log] Loading VRM: 100 %
+[BROWSER error] [2026-01-08T22:14:33.206Z] [ERROR] [LumenChat] Microphone permission denied: NotSupportedError: Not supported
+[BROWSER error] [2026-01-08T22:14:33.259Z] [ERROR] [LumenChat] Microphone permission denied: NotSupportedError: Not supported
+[BROWSER log] [VRM] Model loaded successfully! Scale: _Vector3 Position: _Vector3
+[BROWSER log] M3U content fetched for tv, length: 385533
+[BROWSER log] M3U parsed, channels: 1320
+[BROWSER log] Auto-playing first channel: 23 ABC Bakersfield CA (KERO) (720p)
+[BROWSER log] [VRM] Model loaded successfully! Scale: _Vector3 Position: _Vector3
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+Page loaded, waiting 5 seconds...
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'set')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+=== HTML LENGTH === [33m56360[39m
+=== FIRST 1000 CHARS ===
+<!DOCTYPE html><html lang="en"><head>
+    <script type="module" src="/@vite/client"></script>
+
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/vite.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>prism-iptv</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https: http: ws: wss:; connect-src 'self' https: http: ws: wss: blob:; img-src 'self' data: blob: https: http:; media-src 'self' data: blob: https: http:;">
+  <style type="text/css" data-vite-dev-id="C:/Users/chrom/OneDrive/Desktop/VIBES/Prism IPTV/src/styles/index.css">:root {
+  /* --- Prism Brand 
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+=== BODY TEXT ===
+
+    
+    
+  
+
+
+=== ELEMENT CHECK ===
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+Canvas exists: [33m0[39m
+Aside (sidebar) exists: [33m0[39m
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+PRISM text exists: [33m0[39m
+Any text with "Live": [33m0[39m
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+Screenshot saved
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+[PAGE ERROR] Cannot read properties of undefined (reading 'lerp')
+  ok 1 [chromium] › tests\simple-debug.spec.ts:3:1 › debug page rendering (6.9s)
+
+  1 passed (9.7s)
+::notice title=🎭 Playwright Run Summary::  1 passed (9.7s)

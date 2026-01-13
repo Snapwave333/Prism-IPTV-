@@ -1,0 +1,18 @@
+C4Container
+  title Container Diagram for Prism IPTV
+
+  Person(user, "User", "Media Consumer")
+
+  System_Boundary(prism_system, "Prism IPTV System") {
+    Container(spa, "Single Page Application", "React, Vite, TypeScript", "The main user interface for browsing and playing media")
+    Container(backend, "Remote Server", "Node.js, Express, WS", "Handles local remote pairing, EPG generation, and proxying")
+    ContainerDb(local_storage, "Local Storage", "Browser API", "Stores user settings, favorites, and history")
+  }
+
+  System_Ext(remote_device, "Mobile Remote", "PWA on Mobile", "Controls the main player via WebSocket")
+
+  Rel(user, spa, "Interacts with", "HTTPS")
+  Rel(user, remote_device, "Uses", "Touch")
+  Rel(remote_device, backend, "Sends commands", "WebSocket")
+  Rel(spa, backend, "Connects to/Proxies through", "WebSocket/HTTP")
+  Rel(spa, local_storage, "Reads/Writes", "Sync")

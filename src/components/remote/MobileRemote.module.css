@@ -1,0 +1,237 @@
+/* Mobile Remote Styles - Prism Brand */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: var(--brand-deep-bg);
+  color: var(--text-primary);
+  font-family: var(--font-display);
+  overflow: hidden;
+  user-select: none;
+  background-image: 
+    radial-gradient(circle at 50% 0%, rgba(0, 243, 255, 0.1) 0%, transparent 50%),
+    radial-gradient(circle at 50% 100%, rgba(255, 0, 255, 0.1) 0%, transparent 50%);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--glass-border);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+  z-index: 10;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  color: var(--brand-cyan);
+  text-transform: uppercase;
+}
+
+.indicator {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: var(--text-secondary);
+  transition: all 0.3s ease;
+}
+
+.indicator.online {
+  background-color: var(--brand-cyan);
+  box-shadow: 0 0 10px var(--brand-cyan);
+}
+
+.powerIcon {
+  color: #ef4444; /* Keep red for power */
+  cursor: pointer;
+  transition: all 0.3s ease;
+  filter: drop-shadow(0 0 5px rgba(239, 68, 68, 0.5));
+}
+
+.powerIcon:active {
+  transform: scale(0.9);
+  filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.8));
+}
+
+.mainControls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem;
+  position: relative;
+}
+
+/* Decoration circle behind controls */
+.mainControls::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.02) 0%, transparent 70%);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.playBtn, .pauseBtn {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--glass-bg);
+  backdrop-filter: blur(5px);
+  color: var(--brand-cyan);
+  font-size: 2.5rem;
+  transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
+  cursor: pointer;
+  z-index: 1;
+  box-shadow: 
+    0 8px 32px rgba(0, 0, 0, 0.3),
+    inset 0 0 20px rgba(0, 243, 255, 0.1);
+}
+
+.playBtn:active, .pauseBtn:active {
+  transform: scale(0.92);
+  box-shadow: 
+    0 2px 10px rgba(0, 0, 0, 0.2),
+    inset 0 0 30px rgba(0, 243, 255, 0.2);
+}
+
+.playBtn svg, .pauseBtn svg {
+  filter: drop-shadow(0 0 10px var(--brand-cyan));
+}
+
+.row {
+  display: flex;
+  gap: 3rem;
+  z-index: 1;
+}
+
+.btn {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 1px solid var(--glass-border);
+  background: var(--surface-card);
+  color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:active {
+  background: var(--brand-magenta);
+  color: white;
+  border-color: var(--brand-magenta);
+  box-shadow: 0 0 15px var(--brand-magenta);
+  transform: translateY(2px);
+}
+
+.navPad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 2.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.padBtn {
+    width: 64px;
+    height: 48px;
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 12px;
+    color: var(--text-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    backdrop-filter: blur(4px);
+}
+
+.padBtn:active {
+    background: var(--brand-blue);
+    border-color: var(--brand-blue);
+    color: white;
+    transform: scale(0.95);
+}
+
+.padCenter {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    background: linear-gradient(135deg, var(--surface-active), var(--surface-card));
+    border: 1px solid var(--brand-cyan);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-family: var(--font-display);
+    color: var(--brand-cyan);
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
+    transition: all 0.2s ease;
+}
+
+.padCenter:active {
+    background: var(--brand-cyan);
+    color: var(--brand-deep-bg);
+    box-shadow: 0 0 25px var(--brand-cyan);
+    transform: scale(0.95);
+}
+
+.tabBar {
+  display: flex;
+  background: var(--surface-card);
+  padding-bottom: env(safe-area-inset-bottom);
+  border-top: 1px solid var(--border-color);
+}
+
+.tab {
+  flex: 1;
+  padding: 1.25rem;
+  background: none;
+  border: none;
+  color: var(--text-secondary);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.75rem;
+  font-family: var(--font-body);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: all 0.2s ease;
+}
+
+.activeTab {
+  color: var(--brand-magenta);
+  background: linear-gradient(to top, rgba(255, 0, 255, 0.1), transparent);
+  border-top: 2px solid var(--brand-magenta);
+}
+
+.tab:active {
+  background: rgba(255, 255, 255, 0.05);
+}

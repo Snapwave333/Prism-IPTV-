@@ -1,0 +1,15 @@
+C4Context
+  title System Context Diagram for Prism IPTV
+
+  Person(user, "User", "A user wanting to watch IPTV, list to radio, or manage media")
+
+  System(prism, "Prism IPTV", "The main media player application")
+
+  System_Ext(itunes, "iTunes API", "Provides podcast search results")
+  System_Ext(radio_browser, "Radio Browser API", "Provides radio station listings")
+  System_Ext(iptv_provider, "IPTV Provider", "Provide M3U playlists and EPG data")
+
+  Rel(user, prism, "Uses", "HTTPS")
+  Rel(prism, itunes, "Searches", "HTTPS/JSON")
+  Rel(prism, radio_browser, "Fetches stations", "HTTPS/JSON")
+  Rel(prism, iptv_provider, "Fetches Playlist", "HTTPS/M3U")

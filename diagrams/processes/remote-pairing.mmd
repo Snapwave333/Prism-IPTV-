@@ -1,0 +1,16 @@
+sequenceDiagram
+    participant Mobile
+    participant Backend
+    participant DesktopApp
+
+    DesktopApp->>Backend: Connect (WebSocket)
+    Backend-->>DesktopApp: Welcome (incl. IP)
+    
+    DesktopApp->>DesktopApp: Render QR Code (ws://IP:3001)
+    
+    Mobile->>Backend: Connect (WebSocket)
+    Backend-->>Mobile: Welcome
+    
+    Mobile->>Backend: Send Command {type: "PLAY"}
+    Backend->>DesktopApp: Broadcast {type: "PLAY"}
+    DesktopApp->>DesktopApp: Execute Play Action

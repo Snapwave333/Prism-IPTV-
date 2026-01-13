@@ -1,0 +1,234 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.channelItem {
+    display: flex;
+    align-items: center;
+    padding: 12px 24px;
+    border-bottom: 1px solid var(--glass-border);
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+    height: 72px;
+    background: transparent;
+}
+
+.searchContainer {
+    padding: 16px 24px;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, transparent 100%);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid var(--glass-border);
+}
+
+.searchBar {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.searchIcon {
+    position: absolute;
+    left: 12px;
+    color: var(--brand-cyan);
+    pointer-events: none;
+}
+
+.searchInput {
+    width: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    padding: 10px 40px; /* Space for icon and clear btn */
+    color: var(--text-primary);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    transition: all 0.2s ease;
+}
+
+.searchInput:focus {
+    outline: none;
+    border-color: var(--brand-cyan);
+    background: rgba(0, 243, 255, 0.05);
+    box-shadow: 0 0 15px rgba(0, 243, 255, 0.1);
+}
+
+.clearBtn {
+    position: absolute;
+    right: 12px;
+    background: none;
+    border: none;
+    color: var(--text-secondary);
+    cursor: pointer;
+    padding: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.clearBtn:hover {
+    color: var(--brand-magenta);
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.groupHeader {
+    /* Adjusted top to account for search bar sticky if needed, but virtuoso might handle this differently.
+       Actually, Virtuoso handles sticky headers internally. We might need to adjust if both are sticky.
+       For now, let's keep it simple. */
+    padding: 16px 24px 8px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: var(--brand-cyan);
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: linear-gradient(90deg, var(--surface-card) 0%, transparent 100%);
+    border-bottom: 1px solid var(--glass-border);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+    display: flex;
+    align-items: center;
+}
+
+.channelItem:hover {
+    background-color: var(--glass-bg);
+    transform: translateX(4px);
+    box-shadow: inset 2px 0 0 0 var(--brand-cyan);
+}
+
+.channelItem:hover .actions {
+  opacity: 1;
+}
+
+.active {
+    background: linear-gradient(90deg, rgba(0, 243, 255, 0.1), transparent);
+    border-left: 3px solid var(--brand-cyan);
+    box-shadow: 0 0 20px rgba(0, 243, 255, 0.05);
+}
+
+.logoPlaceholder {
+    width: 48px;
+    height: 48px;
+    background-color: var(--surface-card);
+    border: 1px solid var(--glass-border);
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 16px;
+    overflow: hidden;
+    flex-shrink: 0;
+    transition: transform 0.2s ease;
+}
+
+.active .logoPlaceholder {
+    border-color: var(--brand-cyan);
+    box-shadow: 0 0 10px rgba(0, 243, 255, 0.2);
+}
+
+.logoPlaceholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.initial {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: var(--font-display);
+    color: var(--brand-cyan);
+}
+
+.info {
+    flex: 1;
+    min-width: 0;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--text-primary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    transition: color 0.2s;
+}
+
+.active .name {
+    color: var(--brand-cyan);
+    text-shadow: 0 0 10px rgba(0, 243, 255, 0.3);
+}
+
+.group {
+    font-size: 0.8rem;
+    color: var(--text-secondary);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin-top: 2px;
+}
+
+.playingIcon {
+    color: var(--brand-magenta);
+    margin-left: 12px;
+    filter: drop-shadow(0 0 8px var(--brand-magenta));
+}
+
+.loading, .error {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: var(--text-secondary);
+    font-family: var(--font-display);
+    letter-spacing: 0.1em;
+}
+
+.error {
+    color: #ef4444;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.favBtn {
+  background: none;
+  border: 1px solid transparent;
+  color: var(--text-secondary);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.favBtn:hover {
+  background-color: var(--glass-bg);
+  border-color: var(--brand-magenta);
+  color: var(--brand-magenta);
+  box-shadow: 0 0 10px rgba(255, 0, 255, 0.2);
+}
+
+.favActive {
+  color: var(--brand-magenta);
+  opacity: 1 !important;
+  filter: drop-shadow(0 0 5px var(--brand-magenta));
+}

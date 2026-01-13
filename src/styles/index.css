@@ -1,0 +1,167 @@
+:root {
+  /* --- Prism Brand Palette --- */
+  --brand-cyan: #00FFFF;
+  --brand-magenta: #FF00FF;
+  --brand-blue: #0000FF;
+  --brand-deep-bg: #050510;
+  --brand-card-bg: #0A0A1A;
+  
+  /* --- Surface System --- */
+  --surface-base: var(--brand-deep-bg);    /* Main Background */
+  --surface-card: var(--brand-card-bg);    /* Cards / Sidebar */
+  --surface-hover: rgba(0, 255, 255, 0.05); /* Subtle Cyan Tint */
+  --surface-active: rgba(255, 0, 255, 0.1); /* Subtle Magenta Tint */
+  --surface-overlay: rgba(5, 5, 16, 0.85);  /* Azure/Dark Overlay */
+
+  /* --- Functional Colors --- */
+  --primary-color: var(--brand-cyan);
+  --accent-primary: var(--brand-cyan);
+  --accent-secondary: var(--brand-magenta);
+  --focus-color: var(--brand-blue);
+  
+  /* --- Text Hierarchy --- */
+  --text-primary: #ffffff;
+  --text-secondary: #9CA3AF; /* Gray-400 */
+  --text-tertiary: #6B7280;  /* Gray-500 */
+  --text-accent: var(--brand-cyan);
+
+  /* --- Borders & Glows --- */
+  --border-color: rgba(255, 255, 255, 0.1);
+  --border-glow: rgba(0, 255, 255, 0.5);
+  --glow-primary: 0 0 20px rgba(0, 255, 255, 0.2);
+  --glow-card: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  
+  /* --- Typography --- */
+  --font-family: 'Inter', system-ui, sans-serif;
+  --font-display: 'Outfit', system-ui, sans-serif;
+  
+  --font-xs: 0.75rem;
+  --font-sm: 0.875rem;
+  --font-base: 1rem;
+  --font-lg: 1.125rem;
+  --font-xl: 1.25rem;
+  --font-2xl: 1.5rem;
+  --font-3xl: 2rem;
+  
+  /* --- Spacing --- */
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  /* --- Motion --- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 150ms var(--ease-out);
+  --transition-normal: 250ms var(--ease-out);
+  --transition-slow: 400ms var(--ease-out);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-family);
+  background-color: var(--surface-base);
+  color: var(--text-primary);
+  background: radial-gradient(circle at 50% 0%, #1a1a2e 0%, var(--surface-base) 70%);
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden; /* App-like */
+}
+
+/* Headings Upgrade */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+/* Custom Scrollbar - Neon Style */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--brand-cyan);
+}
+
+/* --- Utilities --- */
+
+.glass-panel {
+  background: rgba(255, 255, 255, 0.03);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: var(--glow-card);
+}
+
+.text-gradient {
+  background: linear-gradient(135deg, var(--brand-cyan), var(--brand-magenta));
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Modern Input */
+.input-modern {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  color: var(--text-primary);
+  padding: 0.5rem 1rem;
+  font-family: var(--font-family);
+  transition: all var(--transition-fast);
+}
+
+.input-modern:focus {
+  outline: none;
+  border-color: var(--brand-cyan);
+  box-shadow: 0 0 0 1px var(--brand-cyan), 0 0 15px rgba(0, 255, 255, 0.1);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Neon Button */
+.btn-glow {
+  position: relative;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: all var(--transition-fast);
+}
+
+.btn-glow:hover {
+  border-color: var(--brand-cyan);
+  box-shadow: 0 0 15px rgba(0, 255, 255, 0.3);
+  background: rgba(0, 255, 255, 0.1);
+}
+
+/* Global Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s var(--ease-out) forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.4s var(--ease-out) forwards;
+}

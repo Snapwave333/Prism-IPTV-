@@ -1,0 +1,14 @@
+<svg width="200" height="200" viewBox="0 0 200 200" fill="none"
+    xmlns="http://www.w3.org/2000/svg">
+    <path d="M100 20L170 140H30L100 20Z" fill="url(#paint0_linear)" stroke="white" stroke-width="4"/>
+    <path d="M100 20L100 140M100 140L170 140M100 140L30 140" stroke="white" stroke-width="2" stroke-opacity="0.5"/>
+    <path d="M100 140L135 80" stroke="white" stroke-width="1" stroke-opacity="0.3"/>
+    <path d="M100 140L65 80" stroke="white" stroke-width="1" stroke-opacity="0.3"/>
+    <defs>
+        <linearGradient id="paint0_linear" x1="100" y1="20" x2="100" y2="140" gradientUnits="userSpaceOnUse">
+            <stop stop-color="#00FFFF"/>
+            <stop offset="0.5" stop-color="#FF00FF"/>
+            <stop offset="1" stop-color="#0000FF"/>
+        </linearGradient>
+    </defs>
+</svg>

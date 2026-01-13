@@ -1,0 +1,21 @@
+sequenceDiagram
+    participant User
+    participant VideoPlayer
+    participant HLS_Instance
+    participant IPTVService
+
+    User->>VideoPlayer: Select Channel
+    VideoPlayer->>HLS_Instance: destroy()
+    VideoPlayer->>IPTVService: getStreamUrl(channelId)
+    IPTVService-->>VideoPlayer: Returns URL
+    
+    create participant HLS_New as New HLS Instance
+    VideoPlayer->>HLS_New: new Hls(config)
+    
+    note right of HLS_New: Config: 0ms buffer, prefetch enabled
+    
+    VideoPlayer->>HLS_New: loadSource(url)
+    VideoPlayer->>HLS_New: attachMedia(videoElement)
+    
+    HLS_New-->>VideoPlayer: MANIFEST_PARSED
+    VideoPlayer->>VideoPlayer: play()

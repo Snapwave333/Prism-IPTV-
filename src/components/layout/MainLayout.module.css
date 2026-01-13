@@ -1,0 +1,185 @@
+.layout {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-color: var(--surface-base);
+  color: var(--text-primary);
+  background-image: 
+    radial-gradient(circle at 0% 0%, rgba(0, 243, 255, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 100% 100%, rgba(255, 0, 255, 0.03) 0%, transparent 40%);
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  /* Adjust for sidebar width on desktop */
+  margin-left: 0; 
+  transition: margin-left var(--transition-normal);
+  width: 100%;
+}
+
+@media (min-width: 769px) {
+  .main {
+    margin-left: 240px; /* Match sidebar width */
+    width: calc(100% - 240px);
+  }
+}
+
+.mobileHeader {
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-md);
+  border-bottom: 1px solid var(--glass-border);
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+@media (min-width: 769px) {
+  .mobileHeader {
+    display: none;
+  }
+}
+
+.menuBtn {
+  background: none;
+  border: none;
+  color: var(--brand-cyan);
+  cursor: pointer;
+  padding: var(--spacing-sm);
+  margin-right: var(--spacing-sm);
+  transition: transform 0.2s ease;
+}
+
+.menuBtn:active {
+  transform: scale(0.9);
+}
+
+.mobileTitle {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.25rem;
+  letter-spacing: 0.05em;
+  background: linear-gradient(135deg, #fff 0%, rgba(255,255,255,0.7) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.playerSection {
+  height: 40vh; 
+  min-height: 320px;
+  width: 100%;
+  background-color: #000;
+  flex-shrink: 0;
+  position: relative;
+  border-bottom: 1px solid var(--border-color);
+  box-shadow: 0 4px 30px rgba(0,0,0,0.5);
+  z-index: 10;
+  
+  /* 2-Column Grid Layout */
+  display: grid;
+  grid-template-columns: 65fr 35fr;
+  overflow: hidden;
+}
+
+.playerContainer {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #000;
+}
+
+.sidePanel {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-left: 1px solid var(--glass-border);
+  background: var(--surface-card);
+}
+
+@media (max-width: 1024px) {
+  .playerSection {
+    grid-template-columns: 1fr;
+    height: auto;
+    min-height: auto;
+  }
+  
+  .sidePanel {
+    display: none; /* Hide side panel on smaller screens or stack it? */
+    /* For now, let's stack or hide. User asked for 2 columns, likely desktop context. */
+    /* Let's hide VRM on mobile for performance/space */
+  }
+}
+
+.contentSheet {
+  position: absolute;
+  top: 40vh; /* Matches playerSection height roughly, usually managed by JS or var */
+  /* Fallback if JS doesn't set it */
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--surface-base);
+  border-top: 1px solid var(--glass-border);
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.2);
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  transition: top 0.4s cubic-bezier(0.32, 0.72, 0, 1);
+  will-change: top;
+  backdrop-filter: blur(20px);
+  /* Ensure it has a background color to cover player */
+  background-color: rgba(15, 23, 42, 0.95); 
+}
+
+.sheetHandle {
+  width: 100%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: grab;
+  flex-shrink: 0;
+}
+
+.sheetHandle::after {
+  content: '';
+  display: block;
+  width: 48px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.scrollableContent {
+  flex: 1;
+  overflow-y: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hide breadcrumbs when sheet is content */
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+  .playerSection {
+    height: 30vh;
+    display: block; /* Stack on mobile */
+  }
+  
+  .contentSheet {
+    top: 30vh;
+  }
+}

@@ -1,0 +1,28 @@
+C4Component
+  title Component Diagram - Prism IPTV Frontend
+
+  Container_Boundary(spa, "Single Page Application") {
+    Component(router, "Router", "React Router", "Handles navigation")
+    Component(app, "App Shell", "React", "Layout and Theme Provider")
+    
+    Component(player_store, "Player Store", "Zustand", "Global state for playback, volume, queue")
+    Component(fav_store, "Favorites Store", "Zustand", "Persisted favorites list")
+
+    Component(video_player, "VideoPlayer", "React/hls.js", "Handles HLS playback and video rendering")
+    Component(audio_service, "AudioService", "TS Module", "Manages AudioContext, Compression, and Analyser")
+    Component(visualizer, "AudioVisualizer", "Canvas/WebAudio", "Visualizes audio frequency")
+    
+    Component(iptv_service, "IPTV Service", "TS Module", "Parses M3U8 files")
+    Component(podcast_service, "Podcast Service", "TS Module", "Fetches RSS and parses XML")
+    Component(epg_service, "EPG Service", "Frontend/Backend", "Fetches and displays TV schedules")
+  }
+
+  Rel(app, router, "Uses")
+  Rel(router, video_player, "Renders")
+  Rel(video_player, audio_service, "Connects Source")
+  Rel(visualizer, audio_service, "Reads Analyser Data")
+  Rel(video_player, player_store, "Reads/Updates State")
+  Rel(app, iptv_service, "Uses")
+  Rel(app, podcast_service, "Uses")
+  Rel(app, epg_service, "Uses")
+  Rel(app, fav_store, "Persists Data")

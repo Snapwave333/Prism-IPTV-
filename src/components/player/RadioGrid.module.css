@@ -1,0 +1,166 @@
+.container {
+  height: 100%;
+  width: 100%;
+  background-color: transparent;
+  padding: var(--spacing-sm);
+  padding-bottom: 0;
+}
+
+.gridList {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: var(--spacing-lg);
+  padding-bottom: var(--spacing-xl);
+}
+
+.gridItemContainer {
+    padding: 0; 
+}
+
+.card {
+  background-color: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--glass-border);
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  display: flex;
+  flex-direction: column;
+  aspect-ratio: 1 / 1.1;
+  position: relative;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card:hover {
+  transform: translateY(-6px) scale(1.02);
+  border-color: var(--brand-cyan);
+  box-shadow: 
+    0 10px 30px rgba(0, 0, 0, 0.3),
+    0 0 20px rgba(0, 243, 255, 0.1);
+}
+
+.card.active {
+  border-color: var(--brand-magenta);
+  box-shadow: 
+    0 0 0 1px var(--brand-magenta),
+    0 0 30px rgba(255, 0, 255, 0.15);
+}
+
+.cardHeader {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 2;
+}
+
+.favBtn {
+    background: rgba(0,0,0,0.4);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    color: var(--text-secondary);
+    padding: 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    opacity: 0;
+    backdrop-filter: blur(4px);
+}
+
+.card:hover .favBtn, .card:focus-within .favBtn {
+    opacity: 1;
+}
+
+.favBtn:hover {
+    background-color: var(--brand-magenta);
+    border-color: var(--brand-magenta);
+    color: white;
+    filter: drop-shadow(0 0 8px var(--brand-magenta));
+}
+
+.favActive {
+    color: var(--brand-magenta);
+    opacity: 1 !important;
+    background: rgba(0,0,0,0.8);
+    border-color: var(--brand-magenta);
+}
+
+.iconWrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.03) 0%, transparent 70%);
+  padding: var(--spacing-md);
+  position: relative;
+}
+
+.favicon {
+  max-width: 70%;
+  max-height: 70%;
+  object-fit: contain;
+  border-radius: 8px;
+  filter: drop-shadow(0 4px 8px rgba(0,0,0,0.3));
+  transition: transform 0.3s ease;
+}
+
+.card:hover .favicon {
+  transform: scale(1.1);
+}
+
+.fallback {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fallbackIcon {
+  color: var(--text-tertiary);
+  opacity: 0.5;
+  transition: color 0.3s;
+}
+
+.card:hover .fallbackIcon {
+    color: var(--brand-cyan);
+    opacity: 0.8;
+}
+
+.info {
+  padding: var(--spacing-md);
+  background: rgba(0, 0, 0, 0.3);
+  border-top: 1px solid var(--glass-border);
+}
+
+.name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 4px;
+}
+
+.tags {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: var(--text-secondary);
+  font-family: var(--font-display);
+  letter-spacing: 0.1em;
+}

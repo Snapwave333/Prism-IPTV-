@@ -1,0 +1,82 @@
+{
+  "$schema": "https://modelcontextprotocol.io/schema/config.json",
+  "mcpServers": {
+    "prism-control": {
+      "command": "node",
+      "args": ["dist/prism-control-server/index.js"],
+      "description": "Controls Prism IPTV UI and media playback",
+      "capabilities": {
+        "tools": [
+          "control_media_player",
+          "navigate_ui",
+          "set_theme_mode",
+          "trigger_mascot_emotion",
+          "get_player_state",
+          "query_available_channels"
+        ]
+      },
+      "env": {
+        "PRISM_WEBSOCKET_URL": "ws://localhost:3001"
+      }
+    },
+    "media-knowledge": {
+      "command": "node",
+      "args": ["dist/media-knowledge-server/index.js"],
+      "description": "Provides EPG data, radio stations, and movie information",
+      "capabilities": {
+        "tools": [
+          "get_current_broadcasts",
+          "find_radio_station",
+          "search_movies",
+          "get_channel_schedule"
+        ]
+      },
+      "env": {
+        "TMDB_API_KEY": "${TMDB_API_KEY}"
+      }
+    },
+    "user-memory": {
+      "command": "node",
+      "args": ["dist/user-memory-server/index.js"],
+      "description": "Manages user preferences, history, and session context",
+      "capabilities": {
+        "tools": [
+          "get_user_history",
+          "save_user_preference",
+          "get_user_preferences",
+          "get_session_context",
+          "update_session_context",
+          "add_to_history"
+        ]
+      },
+      "env": {
+        "USER_MEMORY_DB": "${HOME}/.prism-iptv/user-memory.db"
+      }
+    },
+    "espn-sports": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-espn"],
+      "description": "Live sports scores and standings from ESPN",
+      "capabilities": {
+        "tools": [
+          "get_live_scores",
+          "get_standings",
+          "get_team_schedule"
+        ]
+      }
+    },
+    "brave-search": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-brave-search"],
+      "description": "Web search for general queries and real-time information",
+      "capabilities": {
+        "tools": [
+          "brave_web_search"
+        ]
+      },
+      "env": {
+        "BRAVE_API_KEY": "${BRAVE_API_KEY}"
+      }
+    }
+  }
+}

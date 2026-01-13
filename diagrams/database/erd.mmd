@@ -1,0 +1,44 @@
+erDiagram
+    PLAYER_STORE {
+        string url
+        boolean isPlaying
+        number volume
+        boolean isMuted
+        string mode
+    }
+
+    FAVORITES_STORE {
+        Channel[] channels
+        Station[] stations
+    }
+
+    CHANNEL {
+        string id
+        string name
+        string group
+        string logo
+        string url
+    }
+
+    STATION {
+        string id
+        string name
+        string country
+        string url
+    }
+
+    PODCAST {
+        string id
+        string collectionName
+        string feedUrl
+    }
+
+    SETTINGS {
+        boolean darkTheme
+        boolean lowLatencyMode
+        string serverUrl
+    }
+
+    PLAYER_STORE ||--|{ CHANNEL : "plays"
+    FAVORITES_STORE ||--|{ CHANNEL : "stores"
+    FAVORITES_STORE ||--|{ STATION : "stores"

@@ -1,0 +1,22 @@
+# MCP Servers Dockerfile
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Copy package files
+COPY mcp-servers/package*.json ./
+
+# Install dependencies
+RUN npm ci --only=production
+
+# Copy source code
+COPY mcp-servers/ ./
+
+# Build TypeScript
+RUN npm run build
+
+# Expose ports (if needed for debugging)
+EXPOSE 9000
+
+# Start MCP servers
+CMD ["node", "dist/index.js"]

@@ -1,0 +1,106 @@
+.controls {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  background: var(--glass-bg);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  display: flex;
+  align-items: center;
+  padding: 0 var(--spacing-xl);
+  gap: var(--spacing-lg);
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 20;
+  border-top: 1px solid var(--glass-border);
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.3);
+}
+
+.controls:hover,
+.controls:focus-within {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.spacer {
+  flex: 1;
+}
+
+.iconBtn {
+  background: transparent;
+  border: 1px solid transparent;
+  color: var(--text-primary);
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s ease;
+}
+
+.iconBtn:hover {
+  background-color: var(--surface-hover);
+  color: var(--brand-cyan);
+  border-color: rgba(0, 243, 255, 0.2);
+  box-shadow: 0 0 10px rgba(0, 243, 255, 0.1);
+  transform: scale(1.1);
+}
+
+.iconBtn:active {
+  transform: scale(0.95);
+}
+
+:global(.btn-glow) {
+  background: rgba(0, 243, 255, 0.1) !important;
+  border-color: var(--brand-cyan) !important;
+  color: var(--brand-cyan) !important;
+  box-shadow: 0 0 15px rgba(0, 243, 255, 0.2);
+}
+
+:global(.btn-glow):hover {
+  background: var(--brand-cyan) !important;
+  color: #000 !important;
+  box-shadow: 0 0 25px var(--brand-cyan);
+}
+
+.volumeGroup {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  background: rgba(0,0,0,0.2);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--glass-border);
+}
+
+.volumeSlider {
+  width: 100px;
+  -webkit-appearance: none;
+  background: rgba(255, 255, 255, 0.1);
+  height: 4px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: height 0.2s;
+}
+
+.volumeSlider:hover {
+  height: 6px;
+}
+
+.volumeSlider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 14px;
+  height: 14px;
+  background: var(--brand-cyan);
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--brand-cyan);
+  transition: transform 0.2s;
+}
+
+.volumeSlider::-webkit-slider-thumb:hover {
+  transform: scale(1.2);
+}
